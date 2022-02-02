@@ -125,7 +125,7 @@ function editNav() {
   function checkBirthdate(birthdateElt) {
     if (!birthdateElt.value.match(/^\d{4}\-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])$/)) {
         birthError.style.display = "inline";
-        birthError.innerText = "Veuillez indiquer votre date de naissance.";
+        birthError.innerText = "Vous devez entrer votre date de naissance.";
         birthError.style.color = 'red';
         birthError.style.fontSize = '0.8rem';
         birthError.style.marginTop = '10px';
@@ -164,7 +164,7 @@ function editNav() {
     
     if (cityEltChecked === 0) {
           cityError.style.display = "inline";
-          cityError.innerText = "Veuillez choisir une ou plusieurs ville(s).";
+          cityError.innerText = "Vous devez choisir une option.";
           cityError.style.color = 'red';
           cityError.style.fontSize = '0.8rem';
           cityError.style.marginTop = '10px';
@@ -178,7 +178,7 @@ function editNav() {
   function checkConditions(conditionsElt) {
     if (conditionsElt.checked == false) {
         conditionsError.style.display = "inline";
-        conditionsError.innerText = "Vous devez accepter les termes et conditions.";
+        conditionsError.innerText = "Vous devez vérifier que vous acceptez les termes et conditions.";
         conditionsError.style.color = 'red';
         conditionsError.style.fontSize = '0.8rem';
         conditionsError.style.marginTop = '10px';
