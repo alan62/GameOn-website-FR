@@ -493,7 +493,7 @@ input::placeholder {
 /* bouton inscription */
 .btn-signup {
   outline: none;
-  /*text-transform: capitalize;*/ /* suppression pour éviter les majuscules inutiles" */
+  /*text-transform: capitalize;*/ /* suppression pour éviter la majuscule inutile" */
   font-size: 1.3rem;
   padding: 15px 23px;
   margin: 0;
@@ -596,7 +596,7 @@ footer {
 
   .hero-headline {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bolder;
     margin-bottom: -30px;
   }
@@ -638,7 +638,9 @@ footer {
   }
 }
 
-/*
+/* CODE NON ERREUR 
+
+
 .formData[data-error]::after {
   content: attr(data-error);
   font-size: 0.4em;
