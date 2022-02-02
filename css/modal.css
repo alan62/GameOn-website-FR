@@ -146,8 +146,6 @@ doit être caché en desktop d'où le display: none */
   }
 }
 
-/* les media screen ci-dessus permettent de gérer l'affichage du menu en version mobile */
-
 /* partie formulaire */
 
 main {
@@ -193,7 +191,7 @@ main {
 
 .button:hover {
   background: #3876ac;
-} /* le bouton en question est géré avec un input en HTML */
+} 
 
 /*.smFont {
   font-size: 16px;
@@ -495,7 +493,7 @@ input::placeholder {
 /* bouton inscription */
 .btn-signup {
   outline: none;
-  /*text-transform: capitalize;*/ /* permet de supprimer la majuscule du M de "Je m'inscris" */
+  /*text-transform: capitalize;*/ /* suppression pour éviter les majuscules inutiles" */
   font-size: 1.3rem;
   padding: 15px 23px;
   margin: 0;
@@ -533,7 +531,7 @@ footer {
   margin: 0 20px;
 }
 
-/* Ce qui s'applique sur tablette et mobile */
+/* Mediaqueries tablette et mobile */
 
 @media screen and (max-width: 800px) {
   .hero-section {
@@ -633,31 +631,6 @@ footer {
     opacity: 1;
   }
 }
-
-
-/* ------- Mise en page des alertes --------- */
-
-.error span {
-  display: inline;
-  color: red;
-  font-size: .8rem;
-  margin-top: 10px;
-}
-
-.error input {
-  border: 2px solid red;
-}
-
-.success span {
-  display: none;
-}
-
-.success input {
-  border: 2px solid green;
-}
-
-
-
 
 /*
 .formData[data-error]::after {
