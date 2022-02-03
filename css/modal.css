@@ -11,7 +11,7 @@
   padding: 0;
 }
 
-/* Landing Page */
+/* --------------- Landing Page --------------- */
 
 body {
   margin: 0;
@@ -33,7 +33,7 @@ img {
   padding-right: 1rem;
 }
 
-/* Partie navbar & mise en page du logo en header */
+/* --------------- Partie navbar & mise en page du logo en header --------------- */
 
 .topnav {
   overflow: hidden;
@@ -146,8 +146,6 @@ doit être caché en desktop d'où le display: none */
   }
 }
 
-/* partie formulaire */
-
 main {
   font-size: 130%;
   font-weight: bolder;
@@ -177,7 +175,7 @@ main {
 }
 
 
-/* Partie formulaire d'inscription */
+/* --------------- Partie formulaire d'inscription --------------- */
 
 .button {
   background: #fe142f;
@@ -474,7 +472,7 @@ input::placeholder {
   border: 0;
 }
 
-/* partie titre + texte de présentation & @media screen */
+/* ---------------partie titre + texte de présentation & @media screen --------------- */
 
 .hero-headline {
   width: 100%;
@@ -490,7 +488,7 @@ input::placeholder {
   padding: 0;
 }
 
-/* bouton inscription */
+/* --------------- bouton inscription --------------- */
 .btn-signup {
   outline: none;
   /*text-transform: capitalize;*/ /* suppression pour éviter la majuscule inutile" */
@@ -500,7 +498,7 @@ input::placeholder {
   margin-top: 59px;
 }
 
-/* Correspond à l'image de la page d'accueil */
+/* --------------- Correspond à l'image de la page d'accueil --------------- */
 .hero-img {
   grid-column: span 8;
 }
@@ -531,13 +529,13 @@ footer {
   margin: 0 20px;
 }
 
-/* SUCCESS MESSAGE */
+/* --------------- SUCCESS MESSAGE --------------- */
 
 #success-msg {
   text-align: center;
 }
 
-/* Mediaqueries tablette et mobile */
+/* --------------- Mediaqueries tablette et mobile --------------- */
 
 @media screen and (max-width: 800px) {
   .hero-section {
@@ -606,7 +604,7 @@ footer {
   }
 }
 
-/* Partie tablette */
+/* --------------- Partie tablette --------------- */
 @media screen and (min-width: 670px) and (max-width: 800px) {
   .hero-content {
     width: 100%;
@@ -638,7 +636,7 @@ footer {
   }
 }
 
-/* CODE NON ERREUR 
+/* --------------- CODE NON UTILISE ERREUR ---------------
 
 
 .formData[data-error]::after {
