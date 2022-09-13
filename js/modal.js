@@ -202,6 +202,7 @@ function editNav() {
     isFormValid.push(checkCity(cityElt));
     isFormValid.push(checkConditions(conditionsElt));
   
+    //on vérifie que tous les éléments sont valides dans le tableau isFormValid
     if (!isFormValid.includes(false)) {
         form.style.display = 'none';
         successModal.style.display = 'flex';
